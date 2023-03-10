@@ -12,4 +12,5 @@ the score increases. If they are predicted as "open", the score decreases. If th
 
 #drowsiness_model.py contains the code for the CNN trained on multiple public datasets of eye images.
 
-#The code has been tested and the minor issue in performance is due to inaccuracy of the haarcascades in detecting the eyes, and not due to the model itself.
+## limitations and Future Scope
+The minor issue in performance is due to inaccuracy of the haarcascades in detecting the eyes, and not due to the model itself. Therefore we could use a better eye-detection algorithm to improve performance.
